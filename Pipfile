@@ -1,0 +1,18 @@
+[[source]]
+
+name = "pypi"
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+
+
+[requires]
+
+python_version = "3.5"
+
+
+[packages]
+
+ldap-tools = "*"
+
+[dev-packages]
+tox = "==2.9.1"

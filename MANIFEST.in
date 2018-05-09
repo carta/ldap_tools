@@ -1,0 +1,16 @@
+graft src
+graft tests
+graft docs
+
+include AUTHORS.rst
+include CHANGELOG.rst
+include README.rst
+include LICENSE
+include tox.ini
+include .bumpversion.cfg
+include testing-requirements.txt
+include Pipfile
+include Pipfile.lock
+
+global-exclude *.py[cod] __pycache__ *.so *.dylib
+exclude .python-version

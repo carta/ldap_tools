@@ -1,0 +1,20 @@
+version: 2
+jobs:
+  toxicate:
+    docker:
+      - image: python:3.5
+    steps:
+      - checkout
+      - run: pip install tox && tox
+  toxicate36:
+    docker:
+      - image: python:3.6
+    steps:
+      - checkout
+      - run: pip install tox && tox -e py36
+workflows:
+  version: 2
+  ldaptools:
+    jobs:
+      - toxicate
+      - toxicate36
