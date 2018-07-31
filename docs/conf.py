@@ -23,7 +23,7 @@ project = 'ldap_tools'
 year = '2018'
 author = 'Ali Tayarani'
 copyright = '{0}, {1}'.format(year, author)
-version = release = '0.7.11'
+version = release = '0.7.12'
 
 pygments_style = 'trac'
 templates_path = ['.']
