@@ -11,6 +11,7 @@ include .bumpversion.cfg
 include testing-requirements.txt
 include Pipfile
 include Pipfile.lock
+include .gitchangelog.rc
 
 global-exclude *.py[cod] __pycache__ *.so *.dylib
 exclude .python-version

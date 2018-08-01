@@ -24,7 +24,7 @@ def read(*names, **kwargs):
 
 setup(
     name='ldap_tools',
-    version='0.7.11',
+    version='0.7.12',
     license='MIT',
     description=(
         'A set of tools to make managing LDAP users, groups, and keys easier'),
