@@ -44,7 +44,7 @@ python-dateutil==2.7.2
 pyyaml==3.12
 readme-renderer==20.0
 requests-toolbelt==0.8.0
-requests==2.18.4
+requests==2.20.1
 semver==2.7.9
 simplejson==3.14.0
 six==1.11.0
