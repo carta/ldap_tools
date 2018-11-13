@@ -41,7 +41,7 @@ pytest-travis-fold==1.3.0
 pytest-xdist==1.22.2
 pytest==3.5.1
 python-dateutil==2.7.2
-pyyaml==3.12
+pyyaml==3.13
 readme-renderer==20.0
 requests-toolbelt==0.8.0
 requests==2.20.1
