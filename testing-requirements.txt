@@ -1,6 +1,6 @@
 apipkg==1.4
 attrs==18.1.0
-bleach==2.1.4
+bleach==3.1.4
 bump2version==0.5.8
 certifi==2018.4.16
 cffi==1.11.5;
