@@ -33,6 +33,7 @@ class Client:
                 self.basedn = config['basedn']
                 self.mail_domain = config['mail_domain']
                 self.service_ou = config['service_ou']
+                self.group_ou = config['group_ou']
         except OSError as err:
             print('{}: Config file ({}/ldap_info.yaml) not found'.format(
                 type(err), self.config_dir))
