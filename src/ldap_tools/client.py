@@ -26,7 +26,7 @@ class Client:
         try:
             with open('{}/ldap_info.yaml'.format(self.config_dir),
                       'r') as FILE:
-                config = yaml.load(FILE)
+                config = yaml.load(FILE, Loader=yaml.Loader)
                 self.host = config['server']
                 self.user_dn = config['user_dn']
                 self.port = config['port']
