@@ -130,7 +130,7 @@ class API:
             return results[0].gidNumber.value
 
     def __distinguished_name(self, group):
-        return "cn={},ou=Group,{}".format(group, self.client.basedn)
+        return "cn={},ou={},{}".format(group, self.client.group_ou,self.client.basedn)
 
     def __ldap_attr(self, group, grouptype):
         attributes = {}

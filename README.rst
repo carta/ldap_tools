@@ -72,6 +72,7 @@ setup.
     basedn: #LDAP Base DN
     mail_domain: # Domain to be used for user email addresses
     service_ou: # Organization Unit (OU) for service accounts
+    group_ou: # Organization Unit (OU) for groups
 
 Note: DN of a user is the unique name used to identify that user
 
